@@ -2,6 +2,13 @@
 
 With this tool, you'll be able to run complex emerge commands without having the head in the manual.
 
+## Todo
+
+- [ ] Find a smart way to generate suggestions from `emerge` manual.
+- [ ] Auto-complete package name when installing / removing a package.
+- [ ] Add this tool to `go⁻overlay` when the two previous points will be done.
+- [ ] Provide binary
+
 ## Installing from sources
 
 Currently, you need to have `golang` installed and `GO111MODULE=on` to get dependencies. Later, a binary will be available on release page.
