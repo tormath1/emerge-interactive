@@ -22,3 +22,8 @@ emerge-interactive v0.0.1
 Run `Ctrl+d` or `exit` to quit
 > 
 ```
+
+## Uninstalling
+
+Just run `$ make uninstall`
+
