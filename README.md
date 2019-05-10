@@ -1,6 +1,6 @@
 # Emerge things in an interactive way
 
-With this tool, you'll be able to run complexe emerge commands without having the head in the manual.
+With this tool, you'll be able to run complex emerge commands without having the head in the manual.
 
 ## Installing from sources
 
