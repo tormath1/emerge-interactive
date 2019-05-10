@@ -6,7 +6,6 @@ import (
 
 	"os"
 	"os/exec"
-	"strings"
 )
 
 func executor(s string) {
