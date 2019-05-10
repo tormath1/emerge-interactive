@@ -6,11 +6,11 @@ import "github.com/c-bata/go-prompt"
 // help the user when he's building his command
 func Completer(d prompt.Document) []prompt.Suggest {
 	s := []prompt.Suggest{
+		{Text: "--sync", Description: "Updates repositories, for which auto-sync, sync-type and sync-uri attributes are set in repos.con."},
 		{Text: "--info", Description: "Produces a list of information to include in bug reports which aids the  developers  when  fixing  the  reported  problem."},
-		{Text: "--pretend", Description: "Instead of actually performing the merge, simply display what *would* have been installed if --pretend weren't used."},
-		{Text: "-p", Description: "Instead of actually performing the merge, simply display what *would* have been installed if --pretend weren't used."},
-		{Text: "--verbose", Description: "Tell  emerge  to  run in verbose mode."},
-		{Text: "-v", Description: "Tell  emerge  to  run in verbose mode."},
+		{Text: "--search", Description: "Searches  for matches of the supplied strin  repository."},
+		{Text: "--help", Description: "Displays help information for emerge."},
+		{Text: "--version", Description: "Displays the version number of emerge."},
 	}
 	return prompt.FilterHasPrefix(s, d.GetWordBeforeCursor(), true)
 }
